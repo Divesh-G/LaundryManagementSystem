@@ -1,0 +1,33 @@
+.stats_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat_box {
+    background: #3498db;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.laundry_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.laundry_table th, .laundry_table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.laundry_table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.laundry_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
